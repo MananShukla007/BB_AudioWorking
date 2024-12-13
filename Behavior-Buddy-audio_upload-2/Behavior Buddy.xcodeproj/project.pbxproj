@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		600283A32CA44B4300D5F809 /* CaregiverScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600283A22CA44B4300D5F809 /* CaregiverScreen.swift */; };
+		600283A52CA44C2600D5F809 /* BCBAScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600283A42CA44C2600D5F809 /* BCBAScreen.swift */; };
+		6014C2282CE01FE800C688F3 /* amplify_outputs.json in Resources */ = {isa = PBXBuildFile; fileRef = 6014C2272CE01FE800C688F3 /* amplify_outputs.json */; };
+		6014C2302CE0207800C688F3 /* TodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6014C22F2CE0207800C688F3 /* TodoViewModel.swift */; };
+		6014C2342CE02C9E00C688F3 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6014C2322CE02C9E00C688F3 /* Todo.swift */; };
+		6014C2352CE02C9E00C688F3 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6014C2312CE02C9E00C688F3 /* AmplifyModels.swift */; };
+		6014C2362CE02C9E00C688F3 /* Todo+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6014C2332CE02C9E00C688F3 /* Todo+Schema.swift */; };
+		6026B7522CC096700057FF0A /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 6026B7512CC096700057FF0A /* AWSCognitoAuthPlugin */; };
+		6026B7542CC096700057FF0A /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = 6026B7532CC096700057FF0A /* Amplify */; };
+		6026B7562CC0969D0057FF0A /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 6026B7552CC0969D0057FF0A /* AWSCognitoAuthPlugin */; };
+		6026B7582CC096C50057FF0A /* Authenticator in Frameworks */ = {isa = PBXBuildFile; productRef = 6026B7572CC096C50057FF0A /* Authenticator */; };
+		602DF1662CDD4D800085593B /* AWSAPIPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 602DF1652CDD4D800085593B /* AWSAPIPlugin */; };
+		6039E5B42CCAA99500AFBDF7 /* AWSAPIPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 6039E5B32CCAA99500AFBDF7 /* AWSAPIPlugin */; };
+		6039E5B82CCAD39700AFBDF7 /* SpeechRecognitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6039E5B72CCAD39700AFBDF7 /* SpeechRecognitionView.swift */; };
+		604106842CB8194C0039E7C4 /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 604106832CB8194C0039E7C4 /* AWSCognitoAuthPlugin */; };
+		604106862CB8194C0039E7C4 /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = 604106852CB8194C0039E7C4 /* Amplify */; };
+		604106892CB81E0A0039E7C4 /* Authenticator in Frameworks */ = {isa = PBXBuildFile; productRef = 604106882CB81E0A0039E7C4 /* Authenticator */; };
+		606E282E2CACD0CF0091DA2E /* CaregiverAccountCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606E282D2CACD0CF0091DA2E /* CaregiverAccountCreator.swift */; };
+		608E4ABE2CF59D790061EA2E /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 608E4ABD2CF59D790061EA2E /* AWSCognitoAuthPlugin */; };
+		608E4AC02CF59D790061EA2E /* AWSPluginsCore in Frameworks */ = {isa = PBXBuildFile; productRef = 608E4ABF2CF59D790061EA2E /* AWSPluginsCore */; };
+		608E4AC22CF59D790061EA2E /* AWSS3StoragePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 608E4AC12CF59D790061EA2E /* AWSS3StoragePlugin */; };
+		608E4AC42CF59D790061EA2E /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = 608E4AC32CF59D790061EA2E /* Amplify */; };
+		60A3E04B2C98997600BA6DFC /* Behavior_BuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A3E04A2C98997600BA6DFC /* Behavior_BuddyApp.swift */; };
+		60A3E04D2C98997600BA6DFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A3E04C2C98997600BA6DFC /* ContentView.swift */; };
+		60A3E04F2C98997800BA6DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60A3E04E2C98997800BA6DFC /* Assets.xcassets */; };
+		60A3E0522C98997800BA6DFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60A3E0512C98997800BA6DFC /* Preview Assets.xcassets */; };
+		60F5FBC12CC84CA200ED26E4 /* BCBAClientSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F5FBC02CC84CA200ED26E4 /* BCBAClientSelection.swift */; };
+		60F5FBC32CC84D0D00ED26E4 /* BCBAAccountCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F5FBC22CC84D0D00ED26E4 /* BCBAAccountCreator.swift */; };
+		E8B6327E2D0AA20600A07EEB /* ChooseChildScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B6327D2D0AA20600A07EEB /* ChooseChildScreen.swift */; };
+		E8B632802D0AA21600A07EEB /* ChildDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B6327F2D0AA21600A07EEB /* ChildDetailScreen.swift */; };
+		E8B632822D0AA21F00A07EEB /* PracticeSessionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B632812D0AA21F00A07EEB /* PracticeSessionScreen.swift */; };
+		E8B632842D0AA22700A07EEB /* SessionDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B632832D0AA22700A07EEB /* SessionDetailScreen.swift */; };
+		E8B632862D0AA37600A07EEB /* ChooseClientsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B632852D0AA37600A07EEB /* ChooseClientsScreen.swift */; };
+		E8B6328A2D0AA3A000A07EEB /* ClientDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B632892D0AA3A000A07EEB /* ClientDetailScreen.swift */; };
+		E8B6328C2D0AA3BC00A07EEB /* NewProgramScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B6328B2D0AA3BC00A07EEB /* NewProgramScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		600283A22CA44B4300D5F809 /* CaregiverScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaregiverScreen.swift; sourceTree = "<group>"; };
+		600283A42CA44C2600D5F809 /* BCBAScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCBAScreen.swift; sourceTree = "<group>"; };
+		6014C2272CE01FE800C688F3 /* amplify_outputs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = amplify_outputs.json; sourceTree = SOURCE_ROOT; };
+		6014C22F2CE0207800C688F3 /* TodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewModel.swift; sourceTree = "<group>"; };
+		6014C2312CE02C9E00C688F3 /* AmplifyModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplifyModels.swift; sourceTree = SOURCE_ROOT; };
+		6014C2322CE02C9E00C688F3 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = SOURCE_ROOT; };
+		6014C2332CE02C9E00C688F3 /* Todo+Schema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Todo+Schema.swift"; sourceTree = SOURCE_ROOT; };
+		6039E5AC2CCAA79600AFBDF7 /* resource.ts */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; name = resource.ts; path = amplify/auth/resource.ts; sourceTree = SOURCE_ROOT; };
+		6039E5B72CCAD39700AFBDF7 /* SpeechRecognitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognitionView.swift; sourceTree = "<group>"; };
+		606E282D2CACD0CF0091DA2E /* CaregiverAccountCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaregiverAccountCreator.swift; sourceTree = "<group>"; };
+		608E4ABC2CF59BA00061EA2E /* resource.ts */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; name = resource.ts; path = amplify/storage/resource.ts; sourceTree = SOURCE_ROOT; };
+		60A3E0472C98997600BA6DFC /* Behavior Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Behavior Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60A3E04A2C98997600BA6DFC /* Behavior_BuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Behavior_BuddyApp.swift; sourceTree = "<group>"; };
+		60A3E04C2C98997600BA6DFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		60A3E04E2C98997800BA6DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60A3E0512C98997800BA6DFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		60F5FBBE2CC7FF1900ED26E4 /* resource.ts */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; name = resource.ts; path = amplify/data/resource.ts; sourceTree = SOURCE_ROOT; };
+		60F5FBBF2CC804B700ED26E4 /* backend.ts */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; name = backend.ts; path = amplify/backend.ts; sourceTree = SOURCE_ROOT; };
+		60F5FBC02CC84CA200ED26E4 /* BCBAClientSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCBAClientSelection.swift; sourceTree = "<group>"; };
+		60F5FBC22CC84D0D00ED26E4 /* BCBAAccountCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCBAAccountCreator.swift; sourceTree = "<group>"; };
+		E8B6327D2D0AA20600A07EEB /* ChooseChildScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseChildScreen.swift; sourceTree = "<group>"; };
+		E8B6327F2D0AA21600A07EEB /* ChildDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildDetailScreen.swift; sourceTree = "<group>"; };
+		E8B632812D0AA21F00A07EEB /* PracticeSessionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeSessionScreen.swift; sourceTree = "<group>"; };
+		E8B632832D0AA22700A07EEB /* SessionDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDetailScreen.swift; sourceTree = "<group>"; };
+		E8B632852D0AA37600A07EEB /* ChooseClientsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseClientsScreen.swift; sourceTree = "<group>"; };
+		E8B632892D0AA3A000A07EEB /* ClientDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientDetailScreen.swift; sourceTree = "<group>"; };
+		E8B6328B2D0AA3BC00A07EEB /* NewProgramScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProgramScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60A3E0442C98997600BA6DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6039E5B42CCAA99500AFBDF7 /* AWSAPIPlugin in Frameworks */,
+				608E4ABE2CF59D790061EA2E /* AWSCognitoAuthPlugin in Frameworks */,
+				604106842CB8194C0039E7C4 /* AWSCognitoAuthPlugin in Frameworks */,
+				608E4AC42CF59D790061EA2E /* Amplify in Frameworks */,
+				6026B7542CC096700057FF0A /* Amplify in Frameworks */,
+				604106862CB8194C0039E7C4 /* Amplify in Frameworks */,
+				604106892CB81E0A0039E7C4 /* Authenticator in Frameworks */,
+				6026B7522CC096700057FF0A /* AWSCognitoAuthPlugin in Frameworks */,
+				602DF1662CDD4D800085593B /* AWSAPIPlugin in Frameworks */,
+				6026B7562CC0969D0057FF0A /* AWSCognitoAuthPlugin in Frameworks */,
+				6026B7582CC096C50057FF0A /* Authenticator in Frameworks */,
+				608E4AC02CF59D790061EA2E /* AWSPluginsCore in Frameworks */,
+				608E4AC22CF59D790061EA2E /* AWSS3StoragePlugin in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60A3E03E2C98997600BA6DFC = {
+			isa = PBXGroup;
+			children = (
+				606E282D2CACD0CF0091DA2E /* CaregiverAccountCreator.swift */,
+				60A3E0492C98997600BA6DFC /* Behavior Buddy */,
+				60A3E0482C98997600BA6DFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60A3E0482C98997600BA6DFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60A3E0472C98997600BA6DFC /* Behavior Buddy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60A3E0492C98997600BA6DFC /* Behavior Buddy */ = {
+			isa = PBXGroup;
+			children = (
+				60A3E04A2C98997600BA6DFC /* Behavior_BuddyApp.swift */,
+				6014C22F2CE0207800C688F3 /* TodoViewModel.swift */,
+				60A3E04C2C98997600BA6DFC /* ContentView.swift */,
+				600283A42CA44C2600D5F809 /* BCBAScreen.swift */,
+				600283A22CA44B4300D5F809 /* CaregiverScreen.swift */,
+				E8B6327D2D0AA20600A07EEB /* ChooseChildScreen.swift */,
+				E8B6327F2D0AA21600A07EEB /* ChildDetailScreen.swift */,
+				E8B632812D0AA21F00A07EEB /* PracticeSessionScreen.swift */,
+				E8B632832D0AA22700A07EEB /* SessionDetailScreen.swift */,
+				60F5FBC02CC84CA200ED26E4 /* BCBAClientSelection.swift */,
+				60F5FBC22CC84D0D00ED26E4 /* BCBAAccountCreator.swift */,
+				E8B632892D0AA3A000A07EEB /* ClientDetailScreen.swift */,
+				E8B6328B2D0AA3BC00A07EEB /* NewProgramScreen.swift */,
+				E8B632852D0AA37600A07EEB /* ChooseClientsScreen.swift */,
+				6039E5B72CCAD39700AFBDF7 /* SpeechRecognitionView.swift */,
+				60A3E04E2C98997800BA6DFC /* Assets.xcassets */,
+				6014C2272CE01FE800C688F3 /* amplify_outputs.json */,
+				60F5FBBE2CC7FF1900ED26E4 /* resource.ts */,
+				6039E5AC2CCAA79600AFBDF7 /* resource.ts */,
+				608E4ABC2CF59BA00061EA2E /* resource.ts */,
+				60F5FBBF2CC804B700ED26E4 /* backend.ts */,
+				6014C2312CE02C9E00C688F3 /* AmplifyModels.swift */,
+				6014C2322CE02C9E00C688F3 /* Todo.swift */,
+				6014C2332CE02C9E00C688F3 /* Todo+Schema.swift */,
+				60A3E0502C98997800BA6DFC /* Preview Content */,
+			);
+			path = "Behavior Buddy";
+			sourceTree = "<group>";
+		};
+		60A3E0502C98997800BA6DFC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				60A3E0512C98997800BA6DFC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60A3E0462C98997600BA6DFC /* Behavior Buddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60A3E0552C98997800BA6DFC /* Build configuration list for PBXNativeTarget "Behavior Buddy" */;
+			buildPhases = (
+				60A3E0432C98997600BA6DFC /* Sources */,
+				60A3E0442C98997600BA6DFC /* Frameworks */,
+				60A3E0452C98997600BA6DFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Behavior Buddy";
+			productName = "Behavior Buddy";
+			productReference = 60A3E0472C98997600BA6DFC /* Behavior Buddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60A3E03F2C98997600BA6DFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					60A3E0462C98997600BA6DFC = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 60A3E0422C98997600BA6DFC /* Build configuration list for PBXProject "Behavior Buddy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60A3E03E2C98997600BA6DFC;
+			packageReferences = (
+				604106822CB8194C0039E7C4 /* XCRemoteSwiftPackageReference "amplify-swift" */,
+				604106872CB81E0A0039E7C4 /* XCRemoteSwiftPackageReference "amplify-ui-swift-authenticator" */,
+			);
+			productRefGroup = 60A3E0482C98997600BA6DFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60A3E0462C98997600BA6DFC /* Behavior Buddy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60A3E0452C98997600BA6DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6014C2282CE01FE800C688F3 /* amplify_outputs.json in Resources */,
+				60A3E0522C98997800BA6DFC /* Preview Assets.xcassets in Resources */,
+				60A3E04F2C98997800BA6DFC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60A3E0432C98997600BA6DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6014C2302CE0207800C688F3 /* TodoViewModel.swift in Sources */,
+				606E282E2CACD0CF0091DA2E /* CaregiverAccountCreator.swift in Sources */,
+				60F5FBC12CC84CA200ED26E4 /* BCBAClientSelection.swift in Sources */,
+				E8B632862D0AA37600A07EEB /* ChooseClientsScreen.swift in Sources */,
+				6014C2342CE02C9E00C688F3 /* Todo.swift in Sources */,
+				6014C2352CE02C9E00C688F3 /* AmplifyModels.swift in Sources */,
+				6014C2362CE02C9E00C688F3 /* Todo+Schema.swift in Sources */,
+				600283A32CA44B4300D5F809 /* CaregiverScreen.swift in Sources */,
+				60A3E04D2C98997600BA6DFC /* ContentView.swift in Sources */,
+				E8B6328A2D0AA3A000A07EEB /* ClientDetailScreen.swift in Sources */,
+				E8B6327E2D0AA20600A07EEB /* ChooseChildScreen.swift in Sources */,
+				6039E5B82CCAD39700AFBDF7 /* SpeechRecognitionView.swift in Sources */,
+				E8B632822D0AA21F00A07EEB /* PracticeSessionScreen.swift in Sources */,
+				E8B632842D0AA22700A07EEB /* SessionDetailScreen.swift in Sources */,
+				E8B6328C2D0AA3BC00A07EEB /* NewProgramScreen.swift in Sources */,
+				60A3E04B2C98997600BA6DFC /* Behavior_BuddyApp.swift in Sources */,
+				E8B632802D0AA21600A07EEB /* ChildDetailScreen.swift in Sources */,
+				600283A52CA44C2600D5F809 /* BCBAScreen.swift in Sources */,
+				60F5FBC32CC84D0D00ED26E4 /* BCBAAccountCreator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		60A3E0532C98997800BA6DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60A3E0542C98997800BA6DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60A3E0562C98997800BA6DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Behavior Buddy/Preview Content\"";
+				DEVELOPMENT_TEAM = ZS4XJQ5453;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "This app saves audio files for user convenience.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses the microphone for audio recording.\\";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This app uses speech recognition to transcribe your spoken words into text.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.smu.AlaeddiniLab.Behavior-Buddy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60A3E0572C98997800BA6DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Behavior Buddy/Preview Content\"";
+				DEVELOPMENT_TEAM = ZS4XJQ5453;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "This app saves audio files for user convenience.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses the microphone for audio recording.\\";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This app uses speech recognition to transcribe your spoken words into text.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.smu.AlaeddiniLab.Behavior-Buddy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60A3E0422C98997600BA6DFC /* Build configuration list for PBXProject "Behavior Buddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60A3E0532C98997800BA6DFC /* Debug */,
+				60A3E0542C98997800BA6DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60A3E0552C98997800BA6DFC /* Build configuration list for PBXNativeTarget "Behavior Buddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60A3E0562C98997800BA6DFC /* Debug */,
+				60A3E0572C98997800BA6DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		604106822CB8194C0039E7C4 /* XCRemoteSwiftPackageReference "amplify-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.42.1;
+			};
+		};
+		604106872CB81E0A0039E7C4 /* XCRemoteSwiftPackageReference "amplify-ui-swift-authenticator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-ui-swift-authenticator";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6026B7512CC096700057FF0A /* AWSCognitoAuthPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 604106822CB8194C0039E7C4 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSCognitoAuthPlugin;
+		};
+		6026B7532CC096700057FF0A /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 604106822CB8194C0039E7C4 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = Amplify;
+		};
+		6026B7552CC0969D0057FF0A /* AWSCognitoAuthPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 604106822CB8194C0039E7C4 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSCognitoAuthPlugin;
+		};
+		6026B7572CC096C50057FF0A /* Authenticator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 604106872CB81E0A0039E7C4 /* XCRemoteSwiftPackageReference "amplify-ui-swift-authenticator" */;
+			productName = Authenticator;
+		};
+		602DF1652CDD4D800085593B /* AWSAPIPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 604106822CB8194C0039E7C4 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSAPIPlugin;
+		};
+		6039E5B32CCAA99500AFBDF7 /* AWSAPIPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 604106822CB8194C0039E7C4 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSAPIPlugin;
+		};
+		604106832CB8194C0039E7C4 /* AWSCognitoAuthPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 604106822CB8194C0039E7C4 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSCognitoAuthPlugin;
+		};
+		604106852CB8194C0039E7C4 /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 604106822CB8194C0039E7C4 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = Amplify;
+		};
+		604106882CB81E0A0039E7C4 /* Authenticator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 604106872CB81E0A0039E7C4 /* XCRemoteSwiftPackageReference "amplify-ui-swift-authenticator" */;
+			productName = Authenticator;
+		};
+		608E4ABD2CF59D790061EA2E /* AWSCognitoAuthPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 604106822CB8194C0039E7C4 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSCognitoAuthPlugin;
+		};
+		608E4ABF2CF59D790061EA2E /* AWSPluginsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 604106822CB8194C0039E7C4 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSPluginsCore;
+		};
+		608E4AC12CF59D790061EA2E /* AWSS3StoragePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 604106822CB8194C0039E7C4 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSS3StoragePlugin;
+		};
+		608E4AC32CF59D790061EA2E /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 604106822CB8194C0039E7C4 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = Amplify;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 60A3E03F2C98997600BA6DFC /* Project object */;
+}
